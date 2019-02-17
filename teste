@@ -1,39 +1,7 @@
-
-{testando comentario}
-{e tabulacao}
-   9.2 
-1
-013
-
-
-{e comentaro
-de linha}
-
-program
-9.12
- 013
-3.
-{}
-
-oi_as
-
-;
-.
-:
-()
-,
-:=
-= 
-<
->
-
-<=
->=
-<>
-
-+
--
-or
-*
-/
-and
+program teste; {programa exemplo}
+var
+valor1: integer;
+valor2: real;
+begin
+valor1 := 10;
+end.

@@ -7,7 +7,7 @@ import string
 global q0,q1,q2,q3,q4,q5,q6,q7,q8,q9,q10,q11,q12,q13,q14,q15,q16,q17,q18,q19,q20,q21, q22, q23, q24, q25
 
 
-def	main():
+def	lexico():
 
 	"""
 	Função	principal do analisador	léxico
@@ -28,13 +28,11 @@ def	main():
 	
 	automato =	criaAutomato()
 	
-	execucao(programa, palavrasReservadas, automato)
+	listaTokens = execucao(programa, palavrasReservadas, automato)
 	
-	#automato(programa, mapaReservadas, palavrasReservadas)
+	return listaTokens
+	
 
-	#classificaoTokens	= automato(programa)
-	#cio.salvaTokens(classificaoTokens
-	
 def	criaAutomato():
 
 	estado	= ['q0', 'q1', 'q2', 'q3', 'q4', 'q5','q6',	'q7', 'q8',	'q9', 'q10', 'q11',	'q12', 'q13', 'q14', 'q15',	'q16', 'q17', 'q18', 'q19',	'q20', 'q21', 'q22', 'q23', 'q24', 'q25']
@@ -572,12 +570,9 @@ def	execucao(programa, palavrasReservadas, automato):
 	
 	#Pega todas as informaçõs do token para salvar
 	for t in tokens:
-		print(t.getTokenInfo())
+		#print(t.getTokenInfo())
 		tokensSalvar.append(t.getTokenInfo() + '\n')
 	
 	cio.salvaTokens(tokensSalvar)
-		
 	
-		
-if __name__	== '__main__':
-	main()
+	return tokens

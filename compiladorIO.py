@@ -5,8 +5,8 @@ def	lePrograma():
 	é uma linha do	arquivo
 	"""
 	
-	arquivo =	open('programaTeste', 'r')
-	#arquivo = open('teste', 'r')
+	#arquivo =	open('programaTeste', 'r')
+	arquivo = open('testeSemantico', 'r')
 	conteudoArquivo = arquivo.readlines()
 	arquivo.close()
 	

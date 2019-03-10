@@ -12,16 +12,18 @@ program exemplo;
 		var c, d: integer;
 
 		procedure r(y:integer);
-			var e, f: integer;
+			var e: real; f: integer;
 			
 			begin
-				f := 10;
-				y := 5;
+				f := y;
+				y := 10;
 			end;
 
 		begin
-			
-			c := 10;
+			if 2 > 1 then
+				c := 2
+			else
+				c := 1
 		end;
 
 	begin

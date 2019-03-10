@@ -6,7 +6,7 @@ def	lePrograma():
 	"""
 	
 	#arquivo =	open('programaTeste', 'r')
-	arquivo = open('testeSemantico', 'r')
+	arquivo = open('testeSemanticoTipo', 'r')
 	conteudoArquivo = arquivo.readlines()
 	arquivo.close()
 	

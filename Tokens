@@ -28,7 +28,7 @@ b identificador	8
 := atribuicao	8
 x identificador	8
 + operador aditivo	8
-exemplo identificador	8
+c identificador	8
 ; delimitador	8
 end palavra reservada	9
 ; delimitador	9
@@ -52,7 +52,9 @@ integer palavra reservada	14
 ; delimitador	14
 var palavra reservada	15
 e identificador	15
-, delimitador	15
+: delimitador	15
+real palavra reservada	15
+; delimitador	15
 f identificador	15
 : delimitador	15
 integer palavra reservada	15
@@ -60,25 +62,33 @@ integer palavra reservada	15
 begin palavra reservada	17
 f identificador	18
 := atribuicao	18
-10 numero inteiro	18
+y identificador	18
 ; delimitador	18
 y identificador	19
 := atribuicao	19
-5 numero inteiro	19
+10 numero inteiro	19
 ; delimitador	19
 end palavra reservada	20
 ; delimitador	20
 begin palavra reservada	22
+if palavra reservada	23
+2 numero inteiro	23
+> operador relacional	23
+1 numero inteiro	23
+then palavra reservada	23
 c identificador	24
 := atribuicao	24
-10 numero inteiro	24
-; delimitador	24
-end palavra reservada	25
-; delimitador	25
-begin palavra reservada	27
-a identificador	28
-:= atribuicao	28
-10 numero inteiro	28
-; delimitador	28
-end palavra reservada	30
-. delimitador	30
+2 numero inteiro	24
+else palavra reservada	25
+c identificador	26
+:= atribuicao	26
+1 numero inteiro	26
+end palavra reservada	27
+; delimitador	27
+begin palavra reservada	29
+a identificador	30
+:= atribuicao	30
+10 numero inteiro	30
+; delimitador	30
+end palavra reservada	32
+. delimitador	32
